@@ -1,6 +1,11 @@
-streamlit
-sentence-transformers
-faiss-cpu
-pypdf
-requests
-numpy
+streamlit>=1.37.0
+sentence-transformers>=3.0.1
+transformers>=4.43.0
+torch>=2.3.1
+torchvision>=0.18.1
+faiss-cpu>=1.8.0
+pypdf>=4.2.0
+requests>=2.32.3
+numpy>=1.26.4
+python-dotenv>=1.0.1
+huggingface-hub>=0.24.0
