@@ -14,7 +14,6 @@ CHUNK_OVERLAP_WORDS = 40
 TOP_K = 4
 
 # ---------------- LLM API config ----------------
-# Get a free key at https://console.groq.com (no credit card needed)
 API_BASE_URL = os.environ.get("LLM_API_BASE", "https://api.groq.com/openai/v1/chat/completions")
 API_KEY = os.environ.get("LLM_API_KEY", "")
 MODEL_NAME = os.environ.get("LLM_MODEL", "llama-3.1-8b-instant")
